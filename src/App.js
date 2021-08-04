@@ -3,18 +3,18 @@ import img from "./Image/임시이미지.png";
 import styled from "styled-components";
 
 const MainImg = styled.div`
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
   img {
-    text-align: center;
   }
 `;
 
 function App() {
   return (
-    <div>
-      <MainImg>
-        <img src={img} />
-      </MainImg>
-    </div>
+    <MainImg>
+      <img src={img} />
+    </MainImg>
   );
 }
 
