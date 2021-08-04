@@ -6,8 +6,6 @@ const MainImg = styled.div`
   margin: 1rem;
   display: flex;
   justify-content: center;
-  img {
-  }
 `;
 
 function App() {
